@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* banner-section start */
+header .navbar{
+    width: 1090px;
+    height: 57px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.navbar nav{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar nav button{
+    width: 196px;
+height: 37px;
+background-color: white;
+border-radius: 5px;
+
+}
+.banner-section{
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-style: dashed;
+    background-image: url('../styles/assets/Hero-bg.png');
+    margin-top: 36px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-section .banner-div{
+    width: 998px;
+    height: 582px;
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.banner-section .banner-div h1{
+    font-size: 55px;
+    margin: 24px 0px;
+    text-align: center;
+    
+}
+.banner-section .banner-div p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.banner-section .banner-div button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+background-color: black;
+color: white;
+margin-left: 395px;
+margin-top: 50px;
+border-radius: 5px;
+}
+
+/* banner-section end */
+
+/* 2nd page start */
+main .important{
+    width: 1140px;
+    height: 1393px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    margin-top: 74px;
+    border: 1px solid white;
+}
+main .important .head-part{
+    width: 852px;
+height: 113px;
+margin: 0 auto;
+margin-top: 80px;
+}
+main .important .head-part h1{
+    text-align: center;
+    height: 61px;
+    margin: 0;
+    padding: 0;
+}
+main .important .head-part p{
+    text-align: center;
+    margin-top: 24px;
+    margin: 0;
+    padding: 0;
+    height: 52px;
+    
+}
+main .important-two{
+    width: 946px;
+    height: 1072px;
+    margin: 0 auto;
+    margin-top: 48px;
+
+}
+main .important-two .sitting-human{
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid white;
+    margin-bottom: 32px;
+    
+
+}
+main .important-two .sitting-human .parts{
+    width: 850px;
+height: 240px;
+margin: 0 auto;
+margin: 48px;
+
+}
+
+main .important-two .sitting-human .parts{
+    display: flex;
+}
+main .important-two .sitting-human .parts .writing{
+    width: 477px;
+    height: 219px;
+    margin-right: 100px;
+}
+main .important-two .sitting-human .parts .img{
+    width: 259.56px;
+height: 217.01px;
+}
+main .important-two .sitting-human .parts h3{
+margin-bottom: 16px;
+width: 390px;
+height: 72px;
+}
+main .important-two .sitting-human .parts p{
+    margin-bottom: 32px;
+    width: 468px;
+    height: 52px;
+}
+main .important-two .sitting-human .parts button{
+    border: 1px solid black;
+    width: 171px;
+height: 47px;
+background-color: white;    
+}
+
+/* 2nd page end  */
+
+/* youtube page start */
+main .video-page{
+    width: 1140px;
+height: 775px;
+margin: 0 auto;
+margin-top: 90px;
+}
+main .video-page .intro{
+width: 852px;
+height: 113px;
+border: 1px solid black;
+margin: 0 auto;
+text-align: center;
+}
+main .video-page .intro p{
+    margin-top: 24px;
+    font-size: 18px;
+    padding: 10px;
+}
+main .video-page .video{
+    width: 1140px;
+height: 614px;
+border: 2px solid whitesmoke;
+border-radius: 10px;
+margin-top: 48px;
+
+}
+main .video-page .video-link{
+    width: 1076px;
+height: 550px;
+margin: 0 auto;
+margin-top: 32px;
+border-radius: 20px;
+  overflow: hidden;
+}
+ /* youtube page end */
+
+/* <!-- target page start  --> */
+main .target-page{
+    width: 1140px;
+height: 460px;
+border: 2px solid red;
+margin: 0 auto;
+margin-top: 151px;
+}
+main .target-page .target-intro{
+    width: 946px;
+height: 113px;
+margin: 0 auto;
+}
+main .target-page .target-intro h1, p{
+    text-align: center;
+}
+main .target-page .target-intro p{
+    font-size: 19px;
+    margin-top: 24px;
+}
+main .target-page .item-section{
+    width: 1140px;
+height: 299px;
+border: 2px solid blue;
+margin-top: 48px;
+display: flex;
+}
+main .target-page .item-section .items{
+    width: 364px;
+height: 299px;
+border: 2px solid black;
+margin-right: 24px;
+}
+main .target-page .item-section .items .item div{  
+    width: 284px;
+height: 219px;
+border: 10px solid green;
+margin: 0 auto;
+margin-top: 40px;
+
+}
+main .target-page .item-section .items .item div img{
+    width: 39.68px;
+height: 45px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.target-page h1{
+    margin-top: 24px;
+}
+.target-page p{
+    margin-top: 8px;
+}
+.target-page a{
+    margin-top: 24px;
+}
+
+/* <!-- target page end  --> */
