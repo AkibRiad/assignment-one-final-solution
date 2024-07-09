@@ -146,6 +146,7 @@ main .important-two .sitting-human .parts p{
     margin-bottom: 32px;
     width: 468px;
     height: 52px;
+    text-align: left;
 }
 main .important-two .sitting-human .parts button{
     border: 1px solid black;
@@ -166,7 +167,6 @@ margin-top: 90px;
 main .video-page .intro{
 width: 852px;
 height: 113px;
-border: 1px solid black;
 margin: 0 auto;
 text-align: center;
 }
@@ -197,7 +197,6 @@ border-radius: 20px;
 main .target-page{
     width: 1140px;
 height: 460px;
-border: 2px solid red;
 margin: 0 auto;
 margin-top: 151px;
 }
@@ -216,23 +215,35 @@ main .target-page .target-intro p{
 main .target-page .item-section{
     width: 1140px;
 height: 299px;
-border: 2px solid blue;
-margin-top: 48px;
+margin-top: 23px;
 display: flex;
 }
 main .target-page .item-section .items{
     width: 364px;
 height: 299px;
-border: 2px solid black;
-margin-right: 24px;
+border-radius: 10px;
 }
 main .target-page .item-section .items .item div{  
     width: 284px;
 height: 219px;
-border: 10px solid green;
 margin: 0 auto;
 margin-top: 40px;
 
+}
+.target-page .middle{
+    margin-left:24px;
+}
+.target-page .leftside{
+    margin-left:24px;
+}
+.target-page .colour1{
+    background-color: rgb(243, 215, 219);
+}
+.target-page .colour2{
+    background-color: gainsboro;
+}
+.target-page .colour3{
+    background-color: rgb(240, 240, 145);
 }
 main .target-page .item-section .items .item div img{
     width: 39.68px;
@@ -242,13 +253,24 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 .target-page h1{
+    height: 36px;
     margin-top: 24px;
 }
-.target-page p{
+.target-page .p{
+    text-align: left;
     margin-top: 8px;
+    height: 52px;
 }
-.target-page a{
+.target-page .learn{
+    text-align: left;
     margin-top: 24px;
+    height: 19px;
+    
 }
+.target-page .learn a{
+    color: black;
+    font-weight: bolder;
+}
+ 
 
 /* <!-- target page end  --> */
