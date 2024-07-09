@@ -274,3 +274,58 @@ background-size: cover;
  
 
 /* <!-- target page end  --> */
+
+/* handshake part start */
+main .handshake{
+    width: 1140px;
+height: 313px;
+margin: 0 auto; 
+margin-top: 49px;
+border-radius: 8px;
+background-color: rgba(0,0,0,0.5);
+background-image: url('../styles/assets/handshake.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: overlay;
+}
+main .handshake .support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+main .handshake .support .support-part{
+    width: 730px;
+height: 104px;
+text-align: center;
+}
+main .handshake .support .input-part{
+    width: 684px;
+height: 57px;
+}
+main .handshake .support h1{
+    color: white;
+}
+main .handshake .support p{
+    color: white;
+    margin-top: 28px;
+    
+}
+main .handshake .support input{
+    width: 528px;
+height: 37px;
+border-radius: 10px;
+}
+main .handshake .support button{
+
+    width: 120px;
+height: 37px;
+font-weight: bolder;
+margin-left: 16px;
+border-radius: 8px;
+    
+}
+
+/* handshake part end */
