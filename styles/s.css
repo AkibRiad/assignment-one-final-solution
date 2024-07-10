@@ -68,7 +68,10 @@ margin-left: 395px;
 margin-top: 50px;
 border-radius: 5px;
 }
-
+.banner-section .banner-div button a{
+    color: white;
+    text-decoration: none;
+}
 /* banner-section end */
 
 /* 2nd page start */
