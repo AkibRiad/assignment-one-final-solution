@@ -275,6 +275,64 @@ background-size: cover;
 
 /* <!-- target page end  --> */
 
+/* Next target start */
+main .next-target{
+    position: static;
+width: 1140px;
+height: 866px;
+margin: 0 auto;
+margin-top: 111px;
+} 
+ main .next-target .target-heading{
+    width: 852px;
+height: 109px;
+border: 1px solid white;
+margin: 0 auto;
+text-align: center;
+}
+main .next-target .target-heading p{
+   margin-top: 24px;
+   font-size: 18px;
+}
+ main .next-target .targets{
+    width: 1140px;;
+    height: 705px;
+    margin-top: 48px;
+} 
+ main .next-target .targets .targets-item{
+    width: 1140px;
+height: 219px;
+border: 1px solid black;
+border-radius: 10px;
+}
+main .next-target .targets .skill{
+    width: 1060px;
+height: 139px;
+margin: 0 auto;
+margin-top: 40px;
+display: flex;
+align-items: center;
+}
+main .next-target .targets img{
+    margin-right: 24px;
+}
+main .next-target .targets p{
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+main .next-target .targets a{
+    
+    font-weight: bolder;
+    color: black;
+}
+main .next-target .targets .node{
+margin-top: 24px;
+margin-bottom: 23px;
+}
+
+/* Next target end */
+
 /* handshake part start */
 main .handshake{
     width: 1140px;
@@ -330,3 +388,28 @@ border-radius: 8px;
 }
 
 /* handshake part end */
+
+/* footer start  */
+.footer{
+width: 1440px;
+height: 100px;
+background-color: gainsboro;
+margin: 0 auto;
+margin-top: 80px;
+display: flex;
+justify-items: center;
+align-items: center;
+}
+.footer .container{
+    position: static;
+    width: 1140px;
+height: 36px;
+margin: 0 auto; 
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.footer .container div img{
+    margin-left: 24px;
+}
+/* footer end */
